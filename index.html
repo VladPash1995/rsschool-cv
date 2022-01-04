@@ -1,20 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/epmy.ico">
 </head>
 <body>
     <header>
-        
- 
-        <span class="name">Vladislav Pashinskiy</span>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a> </li>
+                <li class="nav-item"><a href="#about me" class="nav-link">About me</a> </li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a> </li>
+                <li class="nav-item"><a href="#code example" class="nav-link">Code example</a> </li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li> 
+            </ul> 
 
         </header>
-      
+      <main class="main-container">
+          <section class="section-profile" id="profile">
+          <img src="./assets/img/ava.png" alt="my profile photo" class="section-profile-logo">
+          <div class="section-profile-title">
+            <h1 class="section-title main-title">Vladislav Pashinskiy</h1>
+            <h3 class="section-subtitle">Student</h3>
+          </div>
+          </section>
+          <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+              <li class="section-item contacts-item">
+                Novorossiysk, Russia
+              </li>
+              <li class="section-item contacts-item">
+                Phone: +7(918) 498-58-78
+              </li>
+              <li class="section-item contacts-item">
+                Email: <a href="mailto:vlad_pashinskiy@mail.ru" title="email">vlad_pashinskiy@mail.ru</a>
+              </li>
+              <li class="section-item contacts-item">
+                Github: <a href="https://github.com/VladPash1995" title="github">VladPash1995</a>
+              </li>
+              
+            </ul>
+          </section>
+          <section class="section" id="about me">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                My soft skills: Duty, high performance, ability to cope with a large amount of information, team worker.
+            </p>
+          </section>
+          <section class="section" id="skills">
+              <h2 class="section-title">Skills</h2>
+              <ul class="section-list">
+                  <li class="section-item skills-item">
+                      HTML (80%)
+                      </li>
+                      <li class="section-item skills-item"> 
+                          CSS (60%)
+                          </li>
+                          </ul>
+          </section>
+ 
+          <section class="section" id="code example">
+              <h2 class="section-title">Code example</h2>
+              <p>Not ready yet.</p>
+          </section>
+          <section class="section" id="education">
+              <h2 class="section-title">Education</h2>
+              <ul class="section-list">
+                <li class="section-item skills-item">
+                    Admiral Ushakov Maritime State University, Technology of Transport Process.
+                    </li>
+                    <li class="section-item skills-item"> 
+                        Course: RS SCHOOL (*JS/FE Pre-School 2022) - In process.
+                        </li>
+                        </ul>
+          </section>
+          <section class="section" id="Experience">
+              <h2 class="section-title">Experience</h2>
+              <p>I have not any experience.</p>
+          </section>
+          <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul class="section-list">
+                <li class="section-item skills-item">
+                    Russian (native)
+                    </li>
+                    <li class="section-item skills-item"> 
+                        English (A2)
+                        </li>
+                        </ul>
+
+          </section>
+
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-container">
+            <div><a href="https://github.com/VladPash1995" class="github-nav-link"><img src="./assets/img/github.png" width="250px" height="45px" alt="github"></a></div>
+            <a href="https://rs.school/js/" class="rss"><img src="./assets/img/rs school.png" width="150px" height="45px" alt="rss-school"></a>
+          </div>
+      </footer>
 
 </body> 
 </html>
